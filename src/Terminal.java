@@ -129,11 +129,10 @@ public class Terminal {
                     Unavailable commands will be marked with an asterisk(*),
                     and WIP commands will be marked with a hashtag(#).
 
-                    COMMANDS:
-                    sph install | remove | autoremove [flags]
-                    echo [arguments]
-                    clear
-                    logout
+                    sph install | remove | autoremove [flags] - Built-in package manager for seraph.
+                    echo [arguments] - Echoes(prints out) the arguments.
+                    clear - Clears the console history.
+                    logout - Logs out from seraph terminal.
                     """);
 
                     break;
